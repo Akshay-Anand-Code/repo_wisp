@@ -7,7 +7,7 @@ const Footer = () => {
       <a href="https://telegram.org" target="_blank" rel="noopener noreferrer">
         <img src="/Telegram.png" alt="Telegram" className="social-icon" />
       </a>
-      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+      <a href="https://x.com/Wisp_Wonder" target="_blank" rel="noopener noreferrer">
         <img src="/x.png" alt="Twitter" className="social-icon" />
       </a>
       <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
@@ -17,4 +17,4 @@ const Footer = () => {
   );
 };
 
-export default Footer; 
+export default Footer;

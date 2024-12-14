@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { sendMessage } from '../api/chatService';
 import './WoopChat.css';
+import ContractAddress from './ContractAddress';
 
 const WoopChat = () => {
   const [messages, setMessages] = useState([]);
@@ -43,7 +44,7 @@ const WoopChat = () => {
   };
 
   return (
-    <div className="woop-chat-container levitate">
+    <div className="woop-chat-container">
       <div className="woop-chat-header">
         <div className="woop-avatar"></div>
         <h1>Wisp Oracle🔮</h1>
@@ -80,6 +81,7 @@ const WoopChat = () => {
           <span className="send-icon">➜</span>
         </button>
       </form>
+      <ContractAddress />
     </div>
   );
 };
