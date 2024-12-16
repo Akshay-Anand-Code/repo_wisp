@@ -90,9 +90,13 @@
 .woop-bubble {
   width: 30px;
   height: 30px;
-  background: #4a90e2;
   border-radius: 50%;
-  /* Add Woop's expression here */
+  background-image: url('../pfp1.jpg');
+  background-size: cover;
+  background-position: center;
+  border: 1px solid rgba(147, 178, 244, 0.2);
+  margin-right: 8px;
+  box-shadow: 0 0 10px rgba(147, 178, 244, 0.2);
 }
 
 .woop-chat-input {

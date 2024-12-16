@@ -3,7 +3,7 @@ import './ContractAddress.css';
 
 const ContractAddress = () => {
   const [copied, setCopied] = useState(false);
-  const contractAddress = "0x1234567890abcdef1234567890abcdef12345678";
+  const contractAddress = "CA: coming soon ";
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(contractAddress);
