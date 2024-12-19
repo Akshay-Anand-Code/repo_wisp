@@ -4,10 +4,10 @@ import './Footer.css';
 const Footer = () => {
   return (
     <div className="social-links">
-      <a href="https://t.me/thetwilightrealm" target="_blank" rel="noopener noreferrer">
+      <a href="https://t.me/thetwiilightrealm" target="_blank" rel="noopener noreferrer">
         <img src="/Telegram.png" alt="Telegram" className="social-icon" />
       </a>
-      <a href="https://x.com/Wisp_Wonder" target="_blank" rel="noopener noreferrer">
+      <a href="https://x.com/wonder_wisp" target="_blank" rel="noopener noreferrer">
         <img src="/x.png" alt="Twitter" className="social-icon" />
       </a>
       <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
